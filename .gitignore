@@ -1,0 +1,11 @@
+.idea/
+.venv/
+__pycache__/
+.DS_Store
+
+# Lokalne ustawienia i dane dostępowe.
+.env
+.env.*
+!.env.example
+Thumbs.db
+*.log

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Forma — koncepcja strony kameralnego salonu fryzjerskiego. Strzyżenie, koloryzacja i pielęgnacja w spokojnej atmosferze." />
+    <title>Forma — salon fryzjerski · projekt demonstracyjny</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#glowna">Przejdź do treści</a>
+    <header class="site-header">
+      <a class="logo" href="#glowna" aria-label="Forma — początek strony">forma<span>STUDIO FRYZJERSKIE</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu"><span class="menu-label">Menu</span> <span class="menu-icon" aria-hidden="true">☰</span></button>
+      <nav id="menu" class="navigation" aria-label="Menu główne">
+        <a href="#glowna">Salon</a>
+        <a href="#uslugi">Usługi i ceny</a>
+        <a href="#podejscie">Nasze podejście</a>
+        <a href="#zespol">Zespół</a>
+        <a href="#galeria">Galeria</a>
+        <a class="button-small" href="#kontakt">Umów wizytę <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="glowna">
+      <!-- Początek strony: tekst i zdjęcie. -->
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> DOBRA FORMA ZACZYNA SIĘ OD CIEBIE</p>
+          <h1 id="hero-title">Twoje włosy.<br />Twoja <em>forma.</em></h1>
+          <p class="hero-description">Cięcie, które pasuje do Ciebie. Kolor, w którym czujesz się dobrze. I chwila, którą masz tylko dla siebie.</p>
+          <a class="button-primary" href="#kontakt">Znajdź swój nowy look <span aria-hidden="true">↗</span></a>
+          <div class="hero-note"><span class="note-symbol" aria-hidden="true">✳</span><p>Bez pośpiechu. Z uważnością.<br /><strong>Po prostu po Twojemu.</strong></p></div>
+        </div>
+        <div class="hero-visual">
+          <img src="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="Wnętrze salonu z ciemnymi ścianami, okrągłymi lustrami i fotelami" width="1400" height="1600" fetchpriority="high" />
+          <div class="photo-caption"><span>KAMERALNA PRZESTRZEŃ</span><p>Mała przerwa.<br />Duża zmiana.</p></div>
+          <span class="photo-index" aria-hidden="true">01 / FORMA</span>
+        </div>
+      </section>
+
+      <!-- Usługi i ceny. -->
+      <section id="uslugi" class="services" aria-labelledby="services-title">
+        <div class="services-heading">
+          <div>
+            <p class="eyebrow">DOBIERZMY COŚ DLA CIEBIE</p>
+            <h2 id="services-title">Mała zmiana czy<br /><em>nowy początek?</em></h2>
+          </div>
+          <p>Od odświeżenia końcówek po zupełnie nowy kolor. Zaczynamy od konsultacji, żeby wybrać to, co pasuje do Ciebie.</p>
+        </div>
+        <ul class="service-list">
+          <li class="service-row">
+            <span class="service-number" aria-hidden="true">01</span>
+            <div class="service-description"><h3>Strzyżenie i stylizacja</h3><p>Konsultacja, mycie, cięcie i ułożenie. Fryzura, która dobrze wygląda także następnego dnia.</p></div>
+            <p class="service-price">od 140 zł<span>około 60 min</span></p>
+          </li>
+          <li class="service-row">
+            <span class="service-number" aria-hidden="true">02</span>
+            <div class="service-description"><h3>Koloryzacja</h3><p>Od naturalnego odcienia po wyrazistą zmianę. Dobór koloru i pielęgnacja dopasowane do Twoich włosów.</p></div>
+            <p class="service-price">od 280 zł<span>około 120–180 min</span></p>
+          </li>
+          <li class="service-row">
+            <span class="service-number" aria-hidden="true">03</span>
+            <div class="service-description"><h3>Pielęgnacja i regeneracja</h3><p>Chwila dla włosów, które potrzebują nawilżenia, miękkości i odżywienia. Zabieg dobrany podczas konsultacji.</p></div>
+            <p class="service-price">od 100 zł<span>około 45 min</span></p>
+          </li>
+        </ul>
+        <div class="services-bottom">
+          <p>Ceny i czasy są przykładowe — to projekt demonstracyjny. Docelowa wycena zależy od długości włosów i zakresu usługi.</p>
+          <a class="button-small" href="#kontakt">Porozmawiajmy o wizycie <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section id="podejscie" class="approach" aria-labelledby="approach-title">
+        <p class="eyebrow">MNIEJ POŚPIECHU, WIĘCEJ CIEBIE</p>
+        <h2 id="approach-title">Dobra fryzura zaczyna się<br />od dobrej <em>rozmowy.</em></h2>
+        <p>Najpierw słuchamy. Rozmawiamy o tym, co lubisz, jak dbasz o włosy i jak wygląda Twój dzień. Dopiero potem sięgamy po nożyczki.</p>
+      </section>
+      <!-- Fikcyjny zespół, przykładowe zdjęcia. -->
+      <section id="zespol" class="team" aria-labelledby="team-title">
+        <div class="team-intro">
+          <p class="eyebrow">POZNAJMY SIĘ</p>
+          <h2 id="team-title">Dobre włosy.<br /><em>Dobrzy ludzie.</em></h2>
+          <p>Różne spojrzenia, wspólne podejście: słuchać, doradzać i szukać fryzury, w której czujesz się sobą.</p>
+          <p class="team-demo">Przykładowy zespół fikcyjnego salonu. Zdjęcia są ilustracyjne.</p>
+        </div>
+        <div class="team-list">
+          <article class="team-member">
+            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&amp;fit=crop&amp;w=700&amp;q=85" alt="Portret kobiety — zdjęcie ilustracyjne" width="700" height="875" loading="lazy" />
+            <p class="team-specialty">STRZYŻENIE I STYLIZACJA</p>
+            <h3>Julia</h3>
+            <p>Lekkie cięcia, naturalna tekstura i fryzury, które łatwo ułożyć w domu. Zaczyna od pytania: jak chcesz się czuć?</p>
+          </article>
+          <article class="team-member">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&amp;fit=crop&amp;w=700&amp;q=85" alt="Portret mężczyzny — zdjęcie ilustracyjne" width="700" height="875" loading="lazy" />
+            <p class="team-specialty">KOLORYZACJA I PIELĘGNACJA</p>
+            <h3>Michał</h3>
+            <p>Miękkie przejścia koloru, dopasowane odcienie i troska o kondycję włosów. Pomaga znaleźć pomysł na subtelną lub większą zmianę.</p>
+          </article>
+        </div>
+      </section>
+      <section id="galeria" class="gallery" aria-labelledby="gallery-title">
+        <div class="gallery-heading">
+          <div>
+            <p class="eyebrow">ZNAJDŹ SWOJĄ INSPIRACJĘ</p>
+            <h2 id="gallery-title">Wiele możliwości.<br /><em>Twój własny styl.</em></h2>
+          </div>
+          <p>Naturalny kolor, odważniejsze cięcie czy lekka zmiana? Zapisz pomysł, który Ci się podoba — od niego możemy zacząć rozmowę.</p>
+        </div>
+        <!-- Zdjęcia z podpisami. -->
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Inspiracja fryzurą z długimi, rozpuszczonymi włosami" width="900" height="1125" loading="lazy" />
+            <figcaption><span>01 / NATURALNIE</span><h3>Lekkość na co dzień</h3></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1526510747491-58f928ec870f?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Inspiracja kolorem długich, rudych włosów" width="900" height="1125" loading="lazy" />
+            <figcaption><span>02 / KOLOR</span><h3>Ciepłe odcienie</h3></figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Inspiracja upięciem ciemnych włosów z luźnymi pasmami przy twarzy" width="900" height="1125" loading="lazy" />
+            <figcaption><span>03 / STYLIZACJA</span><h3>Swobodne upięcie</h3></figcaption>
+          </figure>
+        </div>
+        <p class="gallery-note">Zdjęcia ilustracyjne z Unsplash — inspiracje do projektu, nie realizacje salonu Forma.</p>
+      </section>
+      <section id="kontakt" class="contact" aria-labelledby="contact-title">
+        <div class="contact-inner">
+          <div class="contact-intro">
+            <p class="eyebrow">ZNAJDŹ CHWILĘ DLA SIEBIE</p>
+            <h2 id="contact-title">Wpadnij.<br />Złap dobrą <em>formę.</em></h2>
+            <p>Chcesz odświeżyć fryzurę, zmienić kolor albo po prostu porozmawiać o możliwościach? Pierwszy krok to kontakt.</p>
+            <p class="contact-demo">To fikcyjny salon. Dane i godziny poniżej są przykładowe; rezerwacje i kontakt nie są aktywne.</p>
+          </div>
+          <div class="contact-details">
+            <div>
+              <h3>Tu nas znajdziesz</h3>
+              <address>Studio Forma<br />ul. Przykładowa 12<br />Białystok · adres demonstracyjny</address>
+            </div>
+            <div>
+              <h3>Porozmawiajmy</h3>
+              <dl class="contact-channels">
+                <div><dt>Telefon</dt><dd>+48 XXX XXX XXX</dd></div>
+                <div><dt>E-mail</dt><dd>kontakt@forma.example</dd></div>
+              </dl>
+            </div>
+            <div class="contact-hours">
+              <h3>Godziny dla Ciebie</h3>
+              <dl>
+                <div><dt>Poniedziałek – piątek</dt><dd>9:00 – 19:00</dd></div>
+                <div><dt>Sobota</dt><dd>9:00 – 15:00</dd></div>
+                <div><dt>Niedziela</dt><dd>Zamknięte</dd></div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer><a class="footer-logo" href="#glowna">forma</a><p>Projekt demonstracyjny do portfolio · fikcyjny salon</p><a href="https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" class="photo-credit">Zdjęcie: Unsplash</a></footer>
+
+  </body>
+</html>
